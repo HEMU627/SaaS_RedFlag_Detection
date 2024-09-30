@@ -35,9 +35,9 @@ To run this project, the following Python libraries are required:
 - `tensorflow`
 - `re`
 
-### Install the Dependencies
+### To Install the Dependencies
 
-Install the dependencies using:
+Installing the dependencies using:
 ```bash
 
 pip install -r requirements.txt
