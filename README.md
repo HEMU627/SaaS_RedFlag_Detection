@@ -24,6 +24,35 @@ The primary objective is to assist buyers, legal teams, or marketplaces in under
   
 - **`README.md`**: Project overview and setup instructions.
 
+## Assumptions
+
+The following assumptions i made in this project:
+
+1. **Predefined Risk Labels and Categories**:
+   
+   - The risk labels and corresponding keywords used for classification are assumed to be comprehensive and cover all relevant clauses typically found in SaaS Terms and Conditions.
+
+2. **Keyword-Based Classification**:
+   
+   - Clause classification is based on keyword matching. It is assumed that the presence of certain keywords determines the risk category and red flag status accurately.
+
+3. **English Language Only**:
+   
+   - The analysis assumes all T&C documents are written in English. The keyword-based approach might not perform well with documents in other languages.
+
+4. **Complete Extraction**:
+   
+   - It is assumed that the entire T&C document is extracted successfully during scraping. Partial scraping results might lead to misclassification or missing risks.
+
+5. **Single Document Type**:
+    
+   - It is assumed that all T&C documents follow a similar format and structure. The project does not account for variations in legal terminology, document structure, or length.
+
+6. **Binary Classification of Red Flags**:
+    
+    - Classification into red flag or not is binary. It is assumed that each clause can be definitively categorized as a risk or not without considering varying degrees of severity.
+      
+
 ## Dependencies
 
 To run this project, the following Python libraries are required:
